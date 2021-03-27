@@ -4,12 +4,12 @@ const routes = express.Router();
 const views = __dirname + '/views/'
 
 const profile = {
-    name: "Diego Ferreira",
-    avatar: "https://avatars.githubusercontent.com/u/61166559?v=4",
-    "monthly-budget": 3000,
+    name: "Ana",
+    /*avatar: "/images/perfil.png",
+    "monthly-budget": "000.000.000-00",
     "days-per-week": 5,
     "hours-per-day": 5,
-    "vacation-per-year": 4,
+    "vacation-per-year": 4,*/
 }
 
 routes.get('/', (req, res) => res.render(views + "/index"))

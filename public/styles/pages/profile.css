@@ -2,6 +2,11 @@
   display: flex;
 }
 
+body {
+  background-color: #F68E1E;
+}
+/*<img src="/images/backperfil.png" alt="">*/
+
 aside.card {
   background: var(--color-card-background);
   color: var(--color-card-title);
@@ -51,3 +56,4 @@ aside p {
 main {
   flex: 1;
 }
+
