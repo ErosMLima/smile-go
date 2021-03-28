@@ -98,12 +98,25 @@
 }
 
 .info > div > strong {
-  display: block;
   
   font-size: 1.5rem;
   font-weight: 700;
-  line-height: 1.625rem; /* 26px of 16px root*/
+  line-height: 1.625rem;
+  display: flex;
+  justify-content: center;
   
+  
+}
+
+.premium{
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.625rem;
+  display: flex;
+  justify-content: center;
+  color: var(--color-card-title);
+  margin-bottom: 5%;
+
 }
 
 /* 
@@ -125,20 +138,27 @@
   position: absolute;
 }
 
+
 #summary .button span {
   width: 2rem;
   height: 2rem;
 
   margin-right: 2rem;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+;
 }
 
 #summary .button span img {
   width: 1.5rem;
   height: 1.5rem;
+}
+
+.dois{
+  margin-top: 100px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  
 }
 
 /* 
@@ -162,6 +182,7 @@ main {
   position: relative;
 
   transition: all 0.2s;
+  margin-bottom: 10px;
 }
 
 .card:hover {
@@ -225,6 +246,26 @@ main {
 .column.actions button img {
   width: 1.5rem;
   height: 1.5rem;
+}
+
+.dez{
+  margin-top: 100px;
+  
+}
+
+.acoes{
+  background-color: var(--color-secondary);
+}
+.acoes:hover {
+  background: 
+  linear-gradient(90deg, rgba(164, 38, 248, 0.85) 0.45%, rgba(193, 60, 255, 0.1) 31.4%),
+    rgb(177, 72, 233);
+}
+
+.acao:hover {
+  background:
+  linear-gradient(90deg, rgba(238, 123, 47, 0.918) 0.45%, rgba(255, 219, 60, 0.721) 31.4%),
+    rgb(248, 119, 34);
 }
 
 @media(max-width:1390px) {
@@ -345,6 +386,12 @@ main {
   text-align: center;
   line-height: 15px;
   color: var(--color-background);
+}
+
+.options{
+  margin-top: 0.5rem;
+  color: var(--color-card-title)
+  
 }
 
 

@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="/styles/partials/modal.css" />
   <link rel="stylesheet" href="/styles/partials/animations.css" />
   <link rel="stylesheet" href="/styles/pages/index.css" />
+  
 
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link
@@ -23,6 +24,7 @@
     rel="stylesheet" />
 
   <script src="/scripts/index.js" defer type="module"></script>
+
 </head>
 
 <body id="page-index">
@@ -150,18 +152,143 @@
       <!-- end cards -->
     </main>
   </div>
+
+  <div class="container">
+    <main class="animate-up delay-2">
+      <h1 class="sr-only">Bonificações</h1>
+      
+      
+      <div class="cards ">
+        <div class="cards dez">
+          <p class="premium">O que pretende fazer hoje?</p>
+
+          <div class="card progress acoes" data-id="1">
+            <div class="id column">1</div>
+            <div class="name column">
+              Fazer compras
+            </div>
+            <div class="deadline column">
+              <span>Quantas compras e milhas já gastas</span>
+              <p>5 compras, 3500 milhas</p>
+            </div>
+            <div class="actions column flex">
+              <p class="sr-only">Ações</p>
+              <button>
+                <a class="status badge column acao" href="">
+                  Comprar
+                </a>
+              </button>
+            </div>
+          </div>
+
+            <div class="card progress acoes" data-id="1">
+              <div class="id column">1</div>
+              <div class="name column">
+                Doar
+              </div>
+              <div class="deadline column">
+                <span>Quantas famílias já ajudou</span>
+                <p>3 famílias</p>
+              </div>
+              <div class="actions column flex">
+                <p class="sr-only">Ações</p>
+                <button>
+                  <a class="status badge column acao" href="">
+                    Doar
+                  </a>
+                </button>
+              </div>
+            </div>
+
+          <div class="card progress acoes" data-id="1">
+            <div class="id column">1</div>
+            <div class="name column">
+              Jogar
+            </div>
+            <div class="deadline column">
+              <span>Quantidade de horas jogadas</span>
+              <p>10h05min </p>
+            </div>
+            <div class="actions column flex">
+              <p class="sr-only">Ações</p>
+              <button>
+                <a class="status badge column acao" href="">
+                  Iniciar
+                </a>
+              </button>
+            </div>
+          </div>
+
+            <div class="card progress acoes" data-id="1">
+              <div class="id column">1</div>
+              <div class="name column">
+                Caminhar
+              </div>
+              <div class="deadline column">
+                <span>Tempo e distancia de caminhada</span>
+                <p>53h0min, percorreu 14 km </p>
+              </div>
+              <div class="actions column flex">
+                <p class="sr-only">Ações</p>
+                <button>
+                  <a class="status badge column acao" href="">
+                    Iniciar
+                  </a>
+                </button>
+              </div>
+            </div>
+
+          <div class="card progress acoes" data-id="1">
+            <div class="id column">1</div>
+            <div class="name column">
+              Assistir vídeos
+            </div>
+            <div class="deadline column">
+              <span>Tempo e quantidade de vídeos</span>
+              <p>12h17min, 29 vídeos assistidos </p>
+            </div>
+            <div class="actions column flex">
+              <p class="sr-only">Ações</p>
+              <button>
+                <a class="status badge column acao" href="/videos">
+                  Iniciar
+                </a>
+              </button>
+            </div>
+          </div>
+
+          <div class="card progress acoes" data-id="1">
+            <div class="id column">1</div>
+            <div class="name column">
+              Jogar
+            </div>
+            <div class="deadline column">
+              <span>Quantidade de horas jogadas</span>
+              <p>10h05min </p>
+            </div>
+            <div class="actions column flex">
+              <p class="sr-only">Ações</p>
+              <button>
+                <a class="status badge column acao" href="">
+                  Iniciar
+                </a>
+              </button>
+            </div>
+          </div>
+    </section>
+  </div>
   <!-- end container -->
 
   <div class="modal-wrapper">
     <div class="modal">
       <img src="/images/trash-48.svg" alt="Excluir Job" title="Excluir Job" />
-      <h3>Excluir Job</h3>
-      <p>Quer mesmo excluir esse job? <br />
-        Ele será apagado para sempre.
+      <h3>Excluir Viagem</h3>
+      <p>Quer mesmo excluir essa viagem? <br />
+        Ela será apagada para sempre.
       <p>
       <footer>
         <a class="button gray" href="#">Cancelar</a>
-        <button class="button red" type="submit" form="delete-job">Excluir Job</button>
+        <button class="button red" type="submit" form="delete-job">Excluir Viagem</button>
       </footer>
     </div>
     <form method="post" action="/job/delete" id="delete-job"></form>

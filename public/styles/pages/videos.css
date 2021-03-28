@@ -1,0 +1,43 @@
+html{
+    margin: 0;
+    width: 100%;
+
+}
+
+
+body {
+    background-color: var(--color-secondary);
+}
+
+
+.videos{
+    color: var(--color-primary);
+    
+    margin-left: 30px;
+    font-size: 25px;
+    
+    
+}
+
+
+@media screen and (min-width: 780px) {
+    .full-width-img {
+        margin: auto;
+        width: 90%;
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 30px;
+        background-color: var(--color-secondary);
+        margin-top: 10px;
+    }
+    
+    .box {
+        background-color: var(--color-secondary);
+        border-radius: 15px;
+        padding: 10px;
+        
+    }
+}
