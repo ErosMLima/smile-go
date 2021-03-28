@@ -348,8 +348,8 @@ main {
     border-radius: 0.313rem;
     transition: all 0.2s;
     overflow: hidden;
-    height: 15px;
-    background-color: #e7e7e7;
+    height: 20px;
+    background-color: var(--color-secondary);
     padding: 1px;
     box-shadow: inset -1px -1px 18px #CECECE, inset 0 -1px 0 #CECECE;
     position: relative;
@@ -393,6 +393,13 @@ main {
   margin-top: 0.5rem;
   color: var(--color-card-title)
   
+}
+
+.copyright{
+  color: var(--color-secondary);
+  display: flex;
+  justify-content: center;
+
 }
 
 
