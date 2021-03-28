@@ -1,3 +1,10 @@
+/* cores da smiles
+color: #7c7c7c;
+color: #333;
+color: #fff;
+color: #ff5a00;
+*/
+
 /* global remove user-agent styling */
 * {
   margin: 0;
@@ -9,31 +16,30 @@
 :root {
   --color-background: #F0F2F5;
   --color-text: #FCFDFF;
-
-  --color-primary: #41414C;
-  --color-secondary:  #F68E1E;
+  --color-primary: #ff5a00;
+  --color-secondary:  #7c7c7c;
   --color-secondary-hover: #FA9C2D;
   
   --color-input-background: #F8F8FC;
-  --color-button-text: #FFFFFF;
+  --color-button-text: #4F4F5B;
   --color-hairline-in-dark: #4F4F5B;
-  --color-hairline-in-light: #E1E3E5;
+  --color-hairline-in-light: #fff;
 
   --color-card-background: var(--color-text);
-  --color-card-title: #5A5A66;
-  --color-card-label: #BFBFCC;
-  --color-card-content: #787880;
+  --color-card-title: #ff5a00;
+  --color-card-label: #fff;
+  --color-card-content: #fff;
 
-  --color-cancel: #E1E3E5;
-  --color-delete: #EB3B35; 
+  --color-cancel: #4F4F5B;
+  --color-delete: red; 
   --color-save: #36B336;
   
   --color-badge-progress-text: var(--color-save);
   --color-badge-progress-background: #E8F8E8;
-  --color-badge-done-text: var(--color-delete);
-  --color-badge-done-background:#FAECEB;
+  --color-badge-done-text: var(--color-card-title);
+  --color-badge-done-background: #E8F8E8;
 
-  --color-header-inner-title: var(--color-card-label)
+  --color-header-inner-title: #fff;
 
 }
 

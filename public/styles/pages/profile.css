@@ -10,13 +10,13 @@
   }
 
   body {
-    background-color: var(--color-secondary);
+    background-color: var(--color-input-background);
   }
   /*<img src="/images/backperfil.png" alt="">*/
 
   aside.card {
     background: var(--color-card-background);
-    color: var(--color-secondary);
+    color: var(--color-primary);
 
     border: 1px solid #E1E3E6;
     border-radius: .313rem;
@@ -33,7 +33,7 @@
   aside img {
     border-radius: 50%;
 
-    border: .25rem var(--color-secondary) solid;
+    border: .25rem var(--color-primary) solid;
 
     width: 11.25rem;
     height: 11.25rem;

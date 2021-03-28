@@ -6,7 +6,7 @@ html{
 
 
 body {
-    background-color: var(--color-secondary);
+    background-color: var(--color-card-label);
 }
 
 
@@ -30,12 +30,12 @@ body {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 30px;
-        background-color: var(--color-secondary);
+        background-color: var(--color-card-label);
         margin-top: 10px;
     }
     
     .box {
-        background-color: var(--color-secondary);
+        background-color: var(--color-card-label);
         border-radius: 15px;
         padding: 10px;
         
